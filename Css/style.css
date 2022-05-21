@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+ line-height: 20px;
+}
+a {
+    
+}
+ul, li {
+    list-style-type: none;
+}
+
+/* TOP BAR STARTS HERE */
+
+#logo {
+    width: 130px;
+    height:auto;
+}
+#logo-con .store-locator h5 {
+    font-size: 15px;
+    margin-top:8px;
+    margin-left: 15px;
+}
+#logo-con .store-locator i {
+    margin-left: 25px;
+    color: #f39;
+}
+#divide-bar {
+    width: 2px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    background-color: #ddd;
+}
+.stars1{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    margin-top: 20px;
+    column-gap: .2rem;
+    
+}
+.txt-star {
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .5rem;
+}
+.icon-items {
+    margin-top: 23px;
+}
+.get {
+    border-right: 1px solid #000; 
+    padding-right: 20px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+/*
+
+
+/* TEXT BLOCK STARTS HERE */
+
+/* .TEXTbox h2 {
+    font-size: 15px;
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 18px 25px;
+} */
+.grid-container1 {
+    display: grid;
+    grid-template-columns:repeat(6, 1fr) ;
+    grid-column-gap:1rem ;
+    align-items: center;
+}
+.textBox-item {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    vertical-align: center;
+    padding: 20px 0px;
+}
+
+/* BRAND LOGO AND SEARCH BAR STARTS HERE */
+.searchTerm {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    padding: 15px 10px;
+    text-align: center;
+}
+.searchButton {
+    border: none;
+    background-color: #fff;
+}
+.searchButton i {
+    color: #f39;
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    font-size: 23px;
+}
+.brand-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+/* MEGA MENU STARTS HERE */
+nav {
+	background: #424242;
+	font-size: 0;
+	position: relative;
+    z-index: 1;
+}
+nav > ul > li {
+	display: inline-block;
+  	font-size: 14px;
+  	padding: 0 15px;
+  	position: relative;
+}
+nav > ul > li:first-child {padding-left: 0;}
+nav > ul > li:last-child {padding-right: 0;}
+nav > ul > li > a {
+	color: #fff;
+  	display: block;
+  	position: relative;
+  	padding: 20px 0;
+  	border-bottom: 3px solid transparent;
+}
+nav > ul > li:hover > a {
+	color: #69aae0; 
+  	border-bottom: 3px solid #69aae0;
+}
+
+
+
+/* #Mega Menu Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.mega-menu {
+	background: #f0f0f0;
+  	display: none;
+  	left: 0;
+  	position: absolute;
+  	text-align: left;
+  	width: 100%;
+}
+.mega-menu h3 {color: #444;}
+.mega-menu ul {
+	float: left;
+  	margin-bottom: 20px;
+  	margin-right: 40px;
+  	width: 205px;
+}
+.mega-menu ul:last-child {margin-right: 0;}
+.mega-menu a {
+	border-bottom: 1px solid #ddd;
+  	color: #4ea3d8;
+  	display: block;
+  	padding: 10px 0;
+}
+.mega-menu a:hover {color: #2d6a91;}
+
+
+
+/* #Droppable Class Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.droppable {position: static;}
+.droppable > a:after {
+	content: "\f107";
+  	font-family: FontAwesome;
+  	font-size: 12px;
+  	padding-left: 6px;
+  	position: relative;
+  	top: -1px;
+}
+.droppable:hover .mega-menu {display: block;}
+
+
+
+/* #Browser Clearfix
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+   display: table; /* 2 */
+}
+.cf:after {clear: both;}
+/* BRAND OF THE WEEK STARTS HERE */
+
+
+#BrandofTheWeek h1{
+    margin: 50px 0;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+.hpbanner-wrapper{
+    display: grid;  
+}
+
+
+/* BRAND OF THE WEE */
+.BrandofTheWeek {
+    text-align:center;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    grid-column-gap:1rem ;
+    align-items: center;
+}
+
+/* CARD CAROUSEL WITH VIDEO STARTS HERE */
+
+.card{
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image:url(../img/crd-img-aftr-hov1.webp);
+  }
+  /* .card:hover .overlay {
+    opacity: 1;
+  } */
+  .card-body {
+      text-align: center;
+  }
+  .card-body i {
+      background-color: #ff0026;
+      width: 25px;
+      padding: 5px;
+      color: #fff;
+      border-radius: 50px;
+  }
+  .card-body .new {
+      font-weight: 800;
+      color:#ff0026 ;
+  }
+
+
+  /* KNOW MORE PART STARTS HERE */
+
+.know-wrapper {
+    display: grid;
+    grid-template-columns:25% 50% 25% ;
+    
+    align-items: center;
+    justify-items: center;
+    color: #fff;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+/* CARD PART STARTS HERE */
+
+/* .card-item {
+    position: relative;
+    overflow: hidden;
+}
+.card-icon-hover{
+    position: relative;
+    
+}
+.card-icon-hover::before {
+ position: absolute;
+ content:'';
+ width: 100%;
+ height: 100%;
+ background-color: red;
+ top: ;
+ left: 0;
+}
+.card-icon-hover:hover::before{
+    
+} */
+
+
+/* SHOP NOW PRODUCTS STARTS HERE */
+
+.hotin {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+}
+.Shop-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+}
+.product-items {
+    text-align: center;
+    background-color: rgb(244, 242, 242);
+}
+.pro-item-txt {
+    margin-top: 20px;
+}
+.pro-item-txt h3 {
+    font-size: 15px;
+}
+.pro-item-txt h3 span i {
+    font-size: 10px;
+}
+
+
+/* ON SALE PART STARTS HERE */
+.products-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1rem;
+}
+.OnSale {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+}
+
+
+/* FAVOURITE BRAND STARTS HERE */
+.favBrand {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+}
+.brandWrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 1rem;
+}
+.NewBlock {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+}
+
+
+/* GALLERY PART STARTS HERE */
+.gallery-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.diaries {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 45px;
+}
+
+.diaryGroup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+}
+.diaryTxt {
+    padding: 12px 0 0 12px;
+}
+#BacktoTop {
+    width: 200px;
+    padding: 15px 25px;
+    margin: 0 auto;
+    border: none;
+    background-color: greenyellow;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+/* NEWSLETTER STARTS HERE */
+
+#newsletter {
+    height: auto;
+    background-color: #ddd;
+    padding-bottom: 50px;
+}
+.heading {
+    text-align: center;
+    
+}
+.heading h3 {
+    line-height: 100px;
+}
+#search {
+    width: 600px;
+    padding: 10px;
+}
+.inputgrp {
+    display: flex;
+    justify-content: center;
+}
+#subscribe {
+    border: none;
+    padding: 13px 50px;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+/* FOOTER PART STARTS HERE */
+
+.footerparagrapgh {
+    text-align: center;
+}
+.para-heading {
+    font-weight: 700;
+}
